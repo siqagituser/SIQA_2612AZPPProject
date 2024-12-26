@@ -11,30 +11,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
 services:
-- serviceName: project.siqa_2612azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_2612AZPPProject
-    version: "1.0"
-- serviceName: project.siqa_2612azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_2612AZPPProject
-    version: "1.0"
 - serviceName: project.siqa_2612azpp.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_2612AZPPProject
     version: "1.0"
-- serviceName: project.siqa_2612azpp.integrations:Sum
+- serviceName: project.siqa_2612azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
   packages:
   - name: SIQA_2612AZPPProject
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
 configurationVariables:
   ? artConnection.SIQA_2612AZPPProject.project.siqa_2612azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
   : "false"
